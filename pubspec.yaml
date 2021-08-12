@@ -1,0 +1,44 @@
+name: kids_camera_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  camera: ^0.8.1+4
+  path_provider: any
+  path: any
+  image_picker: any
+  audioplayers: ^0.19.1
+  flutter_launcher_icons: ^0.9.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/sounds/mp3-1.mp3
+    - assets/apppic.png
+    - assets/12216.png
+
+
+
+  uses-material-design: true
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/ic_launcher.png"
